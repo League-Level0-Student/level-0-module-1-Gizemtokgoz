@@ -14,8 +14,12 @@
          pepperoni.resize(500, 500);
          image(pepperoni, 400, 400);
        }
-       
-       PImage KingJong = loadImage("King.png, 100, 100");
-       
-       image(toppingImage, x, y);
+       PImage pepperoni1 = loadImage("Pepperoni-3.png"); {
+         pepperoni1.resize(500, 500);
+         image(pepperoni1, 200, 200);
     }
+        PImage olive = loadImage("OLIVE.png"); {
+         olive.resize(100, 100);
+         image(olive, 300, 200);
+    }
+  }
